@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jiggle Into JavaScript</title>
+    <link rel="stylesheet" href=maths.css>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+    <p>Press the buttons to change the box!</p>
+
+    <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
+    
+
+    <button id="button1" onclick="grow()">Grow</button>
+    <button id="button2" onclick="blue()">Blue</button>
+    <button id="button3" onclick="fade()">Fade</button>
+    <button id="button4" onclick="reset()">Reset</button>
+    
+    <h1>==========================================================================================</h1>
+    <div class="mainBlock"><button type="button" id="demoQues" onmouseover="mOver(this)" onmouseout="mOut(this)" onClick="generateTwoNumbers()">ADDITION</button>
+    <div id="container"><div id="animate"></div><div id="animate2"></div></div>
+    <p id="tickOrCross"></p>
+    <div class="firstBlock">
+    <p id="questionCount"></p>
+    <p id="numbersGenerated"></p>
+    
+</div>
+
+    <div><input id="answerFromUser">
+    <button type="button" id="submitButton" onClick="answerFromUser()">SUBMIT</button>
+</div>
+    <p id="validOrNot"></p>
+    
+    <p id ="showUsersAnswer"></p>
+    <button type="button" onClick="checkYourAnswer()">RESULT</button>
+    <p id="correctOrIncorrect"></p>
+    <button type="button" id="demoQues1" onClick="generateTwoNumbers()">NEXT QUESTION</button>
+    <button type="button" onClick="resetQuestionCount()">START AGAIN</button>
+</div>
+
+    <script type="text/javascript" src="javascript.js">
+        
+    </script>
+
+</body>
+</html>
