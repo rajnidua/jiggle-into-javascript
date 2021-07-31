@@ -55,7 +55,7 @@ function generateTwoNumbers(){
 
     if(questionCount<=10 && questionCount>0){
         document.getElementById("demoQues").disabled='true';
-        document.getElementById("questionCount").innerHTML="Questionrt"+questionCount + ":";
+        document.getElementById("questionCount").innerHTML="Questiont"+questionCount + ":  ";
         document.getElementById("numbersGenerated").innerHTML= + number1 + " + "+number2 + "?";
     }
     else{
