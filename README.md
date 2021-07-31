@@ -19,8 +19,9 @@ Then the question count starts from 1 again
 ![](./assets/images/addition_quiz_javascript.jpeg)
 
 ``` diff
-live app link: https://rajnidua.github.io/jiggle-into-javascript/
+live app link: 
 ```
+https://rajnidua.github.io/jiggle-into-javascript/
 
 
 
